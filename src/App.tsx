@@ -1,6 +1,7 @@
 import ExampleUseEffect1 from './components/ExampleUseEffect1'
 import ExampleUseEffect2 from './components/ExampleUseEffect2'
 import ExampleUseEffect3 from './components/ExampleUseEffect3'
+import ExampleUseEffect4 from './components/ExampleUseEffect4'
 import './App.css'
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
       <div style={{ margin: '20px 0', padding: '20px', border: '1px solid #ccc' }}>
         <h2>Section 3: Fetch data from backend</h2>
         <ExampleUseEffect3 />
+      </div>
+      <div style={{ margin: '20px 0', padding: '20px', border: '1px solid #ccc' }}>
+        <h2>Section 4: Set up and clean up</h2>
+        <ExampleUseEffect4 />
       </div>
     </div>
   )

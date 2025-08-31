@@ -1,4 +1,5 @@
 import ExampleUseEffect1 from './components/ExampleUseEffect1'
+import ExampleUseEffect2 from './components/ExampleUseEffect2'
 import './App.css'
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
       <div style={{ margin: '20px 0', padding: '20px', border: '1px solid #ccc' }}>
         <h2>Section 1: Run once on mount</h2>
         <ExampleUseEffect1 />
+      </div>
+      <div style={{ margin: '20px 0', padding: '20px', border: '1px solid #ccc' }}>
+        <h2>Section 2: Run when a value changes</h2>
+        <ExampleUseEffect2 />
       </div>
     </div>
   )
